@@ -1,37 +1,14 @@
 :root.theme-light {
-  background-image: url(../images/cover-image-light.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: var(--main-font-family);
-  color: #353430;
-  font-size: var(--main-font-size);
-  --title-color: #ffc2e6;
-  --accent-color: #ff8dcb;
-  --text-color: #353430;
-  --title-shadow-color: #ff0070;
-  --main-text-color: #353430;
-  --decorated-color: #353430;
-  --section-text-color: var(--main-text-color);
-  --button-color: var(--text-color);
-  --bg-color: #fff1f7;
+  --text-color: var(--color-black-2, #353430);
+  --accent-color: var(--color-pink-4, #ff8dcb);
+  --brand-color: var(--color-pink-3, #ffc2e6);
+  --highlight-color: var(--color-black-2, #353430);
+  --secondary-color: var(--color-black-2, #353430);
+  --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
+
+  --page-background-color: var(--color-pink-1, #fff1f7);
+  --page-background-image: url("../images/cover-image-light.png");
+
+  --rec-visibility: hidden;
 }
 
-.theme-light .page {
-  background-image: url(../images/cover-image-light.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: var(--main-font-family);
-  color: #353430;
-  font-size: var(--main-font-size);
-  --title-color: #ffc2e6;
-  --accent-color: #ff8dcb;
-  --text-color: #353430;
-  --title-shadow-color: #ff0070;
-  --main-text-color: #353430;
-  --decorated-color: #353430;
-  --section-text-color: var(--main-text-color);
-  --button-color: var(--text-color);
-  --bg-color: #fff1f7;
-}
