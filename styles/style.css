@@ -48,7 +48,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-2, #ff007040);
+  border-color: var(--secondary-color-alloy, #ff007040);
 }
 
 .header__theme-menu-button:focus {
@@ -192,7 +192,8 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
 }
 
 .link:focus {
@@ -205,6 +206,8 @@
 
 
 .footer {
+  min-block-size: 668px;
+  block-size: 100vh;
   place-items: center;
 }
 
