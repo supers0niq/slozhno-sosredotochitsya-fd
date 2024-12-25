@@ -52,7 +52,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-alloy, #ff007040);
+  border-color: var(--secondary-color-dark, #32312D66);
 }
 
 .header__theme-menu-button:focus {

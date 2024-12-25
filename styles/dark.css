@@ -1,8 +1,9 @@
 :root.theme-dark {
   --text-color: #f1b2ce;
   --brand-color: #db00ff;
+  --accent-color: #FF0070;
   --secondary-color: #ff0070;
-  --secondary-color-alloy: #ff007040;
+  --secondary-color-dark: #ff007040;
   --highlight-color: #000028;
   --page-bg-color: #000028;
   --page-bg-image: url("../images/cover-image-dark.png");
@@ -12,6 +13,7 @@
   :root {
     --text-color: #f1b2ce;
     --brand-color: #db00ff;
+    --accent-color: #FF0070;
     --secondary-color: #ff0070;
     --secondary-color-alloy: #ff007040;
     --highlight-color: #000028;

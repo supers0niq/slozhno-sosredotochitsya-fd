@@ -4,7 +4,7 @@
   --brand-color:  #ffc2e6;
   --highlight-color: #353430;
   --secondary-color: #353430;
-  --secondary-color-dark:  #35343040;
+  --secondary-color-dark: #32312D66;
   --page-bg-color:  #fff1f7;
   --page-bg-image: url("../images/cover-image-light.png");
   --rec-visibility: hidden;
@@ -16,9 +16,9 @@
     --brand-color:  #ffc2e6;
     --highlight-color: #353430;
     --secondary-color: #353430;
-    --secondary-color-dark:  #35343040;
+    --secondary-color-dark:  #32312D66;
     --page-bg-color:  #fff1f7;
     --page-bg-image: url("../images/cover-image-light.png");
-    --rec-decor-visibility: hidden;
+    --rec-visibility: hidden;
   }
 }
