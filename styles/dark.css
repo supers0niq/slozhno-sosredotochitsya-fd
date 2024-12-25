@@ -4,7 +4,18 @@
   --secondary-color:  #ff0070;
   --secondary-color-alloy:  #ff007040;
   --highlight-color: #000028;
-  --page-background-color: #000028;
-  --page-background-image: url("../images/cover-image-dark.png");
+  --page-bg-color: #000028;
+  --page-bg-image: url("../images/cover-image-dark.png");
   --rec-visibility: visible;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --text-color: #f1b2ce;
+    --brand-color:  #db00ff;
+    --secondary-color:  #ff0070;
+    --secondary-color-alloy:  #ff007040;
+    --highlight-color: #000028;
+    --page-bg-color: #000028;
+    --page-bg-image: url("../images/cover-image-dark.png");
+    --rec-visibility: visible;
+  }
 }
