@@ -145,7 +145,7 @@
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #ff0070);
 }
-.title-sub{
+.title-sub {
   font-weight: 400;
 }
 .main {
